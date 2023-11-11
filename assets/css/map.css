@@ -1,0 +1,285 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&family=Bree+Serif&family=Cabin&family=PT+Sans+Narrow&family=Poppins:wght@300;400&family=Roboto&family==Tiro+Bangla&display=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+@font-face {
+    font-family: Intro Rust;
+    src: url("../fonts/IntroRustG-Base2Line.otf");
+    font-stretch: normal;
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: League Spartan;
+    src: url("../fonts/LeagueSpartan-Bold.otf");
+    font-stretch: normal;
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Chunk Five;
+    src: url("../fonts/ChunkFive-Regular.otf");
+    font-stretch: normal;
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: ChunkBelanosima;
+    src: url("../fonts/Belanosima-SemiBold.ttf");
+    font-stretch: normal;
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: NikoshBAN;
+    src: url("../fonts/NikoshBAN.ttf");
+    font-stretch: normal;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+/* Google Fonts Family
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-family: 'Cabin', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Bree Serif', serif;
+font-family: 'Tiro Bangla', serif;
+ */
+:root {
+    --black-color: black;
+}
+
+body {
+    margin: 0px auto;
+    padding: 0px auto;
+    font-family: 'Lato', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.logo img {
+    height: 80px;
+    width: auto;
+    margin-top: 10px;
+}
+
+#mapElement {
+    background-color: #FFDF94;
+    color: var(--black-color);
+}
+
+.Bangla {
+    font-family: NikoshBAN;
+    font-size: 17px;
+    font-weight: bold;
+    color: var(--black-color);
+    text-align: left;
+}
+
+h2 {
+    font-family: 'Bree Serif', serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--black-color);
+    text-align: center;
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1513a3;
+    text-align: left;
+    text-align: center;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 1px; */
+    line-height: 1.5;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #1513a3;
+    color: black;
+    text-align: center;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 1px; */
+    line-height: 1.5;
+}
+
+.under_development {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(255, 80, 80);
+    text-align: justify;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.mapTitle {
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-align: justify;
+    letter-spacing: .5px;
+    line-height: 1.5;
+    font-family: NikoshBAN;
+}
+
+
+
+
+#MainMap {
+    /* width: 100%; */
+    height: 100vh;
+}
+
+.Save_gend h5 {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.Save_gend p {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.log_out_btn {
+    background-color: var(--black-color) !important;
+    border: none;
+    padding: 8px 100px;
+}
+
+
+
+.credential p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* <====== Customized Leaflet CSS ======> */
+
+.leaflet-popup-close-button {
+    display: none;
+}
+
+.imgIcon {
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.leaflet-touch .leaflet-control-geocoder-icon {
+    width: 44px;
+    height: 44px;
+}
+
+.leaflet-tooltip-top {
+    line-height: 1;
+    margin-top: 0px;
+}
+
+.leaflet-tooltip-top::before {
+    display: none
+}
+
+.leaflet-tooltip {
+    padding-top: 1px;
+    padding-bottom: 0px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.leaflet-popup-content-wrapper {
+    padding: 1px;
+    text-align: left;
+    border-radius: 5px;
+    /* width: 350px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    flex-wrap: wrap; */
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+    background: white;
+    color: #333;
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4);
+}
+
+.leaflet-popup-content {
+    margin: 5px 5px 5px 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    min-height: 1px;
+    line-height: 1.5;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.leaflet-tooltip.myTool {
+    position: absolute;
+    font-family: NikoshBAN;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    padding: 1px;
+    background-color: rgba(255, 255, 255, .000000004);
+    border: none;
+    border-style: none;
+    box-shadow: none;
+}
+
+
+ul li {
+    list-style: none;
+}
+
+.Savegend_img {
+    height: 30px;
+    width: 35px;
+    margin-top: -15px;
+}
+
+
+
+
+
+
+/* .leaflet-popup-content.LabelForVC {
+    position: absolute;
+    font-family: 'Tiro Bangla', serif;
+    font-family: NikoshBAN;
+    font-size: 200px;
+    font-weight: bold;
+    font-stretch: expanded;
+    padding: 1px;
+    background-color: rgba(255, 255, 255, .000000004);
+    border: none;
+    border-style: none;
+    box-shadow: none;
+    text-align: center;
+    color: yellow;
+    color: darkred;
+} */

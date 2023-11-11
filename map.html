@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIS BREB</title>
+
+    <meta name="keywords" content="Web Map, Web GIS, Web Map of BREB">
+    <meta name="description" content="Web Map, Web GIS">
+    <meta name="author" content="Web Map of BREB">
+
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/icon/globe-4.png" type="image/png">
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="libs/leaflet/leaflet.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+    <link rel="stylesheet" href="plugin/Leaflet.markercluster-1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="plugin/Leaflet.markercluster-1.4.1/dist/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="plugin/LeafletSearch/leaflet-search.src.css" type="text/css" media="all">
+
+
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/map.css" type="text/css" media="all">
+</head>
+
+<body>
+    <div class="container-fluid mw-100">
+        <div class="row">
+            <div id="mapElement" class="col-md-2">
+                <div>
+
+                    <div class="logo">
+                        <img src="./assets/image/logo.jpg" alt="LOGO">
+                    </div>
+                    <div class="d-flex flex-column">
+                        <h2 class="mt-3 Bangla">নির্বাচনী প্রচারনা ও পর্যবেক্ষণ ব্যবস্থা</h2>
+                        <h3 class="Bangla">নির্বাচনী এলাকাঃ ৮৬ যশোর-২</h3>
+                        <!-- <h3 class= "Bangla">চৌগাছা এবং ঝিকরগাছা উপজেলা</h3> -->
+                    </div>
+                    <hr class="hr mx-0 my-0 px-0 py-0 pb-1 mt-2" />
+                    <h4 class="mapTitle mt-0">ঝিকরগাছা এবং চৌগাছা উপজেলার ২০২৪ সালের দ্বাদশ জাতীয় সংসদ নির্বাচনী
+                        মানচিত্র [ভোট কেন্দ্রের অবস্থান মানচিত্র]।</h4>
+                </div>
+                <hr class="hr mx-0 my-0 px-0 py-0 pb-1" />
+                <div class="Save_gend">
+                    <!-- <a target="_blank"><img src="./images/Legend/MapLegend.png" alt="Map Legend" width="100%"></a> -->
+
+                    <h5>Save gend </h5>
+
+                    <p> <img class="Savegend_img mt-2" src="./images/Legend/1.png" alt=""> Existing 132/33 KV Grid S/S
+                    </p>
+                    <p> <img class="Savegend_img" src="./images/Legend/2.png" alt="">Proposed 132/33 KV Grid
+                        S/S</p>
+                    <p><img class="Savegend_img" src="./images/Legend/3.png" alt=""> MMA UC 132/33 KV Grid S/S
+                    </p>
+                    <p> <img class="Savegend_img" src="./images/Legend/4.png" alt="">Existing 33/11 KV Sub-Station
+                    </p>
+                    <p><img class="Savegend_img" src="./images/Legend/5.png" alt="">Proposed 33/11 KV
+                        Sub-Station</p>
+                    <p> <img class="Savegend_img" src="./images/Legend/6.png" alt="">UC 33/11 KV Sub-Station</p>
+
+                </div>
+                <!-- <hr class="hr mx-0 my-0 px-0 py-0 pb-1" /> -->
+
+                <div class="form-group mt-3 mb-1 d-flex justify-content-center">
+                    <a href="logout.php"><button class="btn btn-danger log_out_btn">Logout</button></a>
+                </div>
+
+                <div class="credential">
+
+                    <p class="copyright-text">Copyright &copy; 2024 All Rights Reserved by
+                        <a href="#">Bangladesh Awami League</a>.
+                    </p>
+
+                    <p class="under_development">This site is currently under development.</p>
+                </div>
+            </div>
+            <div id="MainMap" class="col-md-10">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Election Boundary Data Path -->
+
+    <!-- 33/11kV Sub-Station -->
+
+    <!-- 132/33kV Grid Sub-Station -->
+
+
+    <!-- 33kV Database -->
+
+
+    <!-- Vendor JS -->
+    <script type="text/javascript" src="libs/leaflet/leaflet.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.bundle.js"></script>
+
+    <!-- Plugin -->
+    <script type="text/javascript" src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+    <script type="text/javascript" src="plugin/Leaflet.markercluster-1.4.1/dist/leaflet.markercluster.js"></script>
+    <script type="text/javascript" src="plugin/LeafletSearch/leaflet-search.src.js"></script>
+    <script type="text/javascript" src="plugin/leaflet.textpath.js"></script>
+
+    <!-- Custom JS -->
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+
+    <!-- <script type='text/javascript'>
+        document.addEventListener('contextmenu', event => event.preventDefault());
+    </script> -->
+</body>
+
+</html>

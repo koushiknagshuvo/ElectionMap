@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bangladesh Awami League</title>
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!--=============== Bootstrap ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/#[[latestVersion]]#/mdb.min.css" rel="stylesheet" />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/signup.css">
+
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="index.html" class="nav__logo">
+                    <img src="./assets/image/logo.jpg" alt="Logo">
+                </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__burger"></i>
+                    <i class="ri-close-line nav__close"></i>
+                </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link">হোম </a></li>
+
+
+                    <!--=============== DROPDOWN 1 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            মানচিত্র <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="map.html" class="dropdown__link">
+                                    <i class="ri-map-pin-line"></i> ঝিকরগাছা উপজেলা
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="map.html" class="dropdown__link">
+                                    <i class="ri-pin-distance-line"></i> চৌগাছা উপজেলা
+                                </a>
+                            </li>
+
+
+                        </ul>
+                    </li>
+
+                    <!-- <li><a href="#" class="nav__link">নির্বাচন</a></li> -->
+
+                    <!--=============== DROPDOWN 2 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            <i class="ri-user-line"></i> <span id="profile">প্রোফাইল</span> <i
+                                class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="signup.html" class="dropdown__link">
+                                    <i class="ri-user-line"></i> সাইন আপ
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="login.html" class="dropdown__link">
+                                    <i class="ri-login-box-line"></i>লগইন
+                                </a>
+                            </li>
+
+                            <!-- <li>
+                  <a href="adminlogin.html" class="dropdown__link">
+                     <i class="ri-login-circle-line"></i>এডমিন লগইন
+                  </a>
+               </li> -->
+                        </ul>
+                    </li>
+
+                    <li><a href="contact.html" class="nav__link">যোগাযোগ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="registration_form_section">
+        <div class="container">
+            <div class="row gx-5 d-flex justify-content-center align-items-center">
+                <div class="col-sm-12 col-md-6 d-flex justify-content-center align-items-center">
+                    <img class="img-fluid votbox_image " src="./assets/image/box.png" alt="">
+                </div>
+                <div class="col-sm-12 col-md-6  d-flex justify-content-center align-items-center">
+                    <form class="registration-form" action="">
+                        <div class="form-group">
+                            <input type="text" class="form-control item" id="firstname" placeholder="নাম" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control item" id="phone-number" placeholder="ফোন নাম্বার"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control item" id="password" placeholder="পাসওয়ার্ড"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control item" id="email" placeholder="ইমেইল" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control item" id="birth-date" placeholder="NID নাম্বার"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-block create-account w-100">সাইন আপ</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <a href="index.html" class="nav__logo">
+                        <img src="./assets/image/logo.jpg" alt="Logo">
+                    </a>
+                    <p class="text-justify pt-3">ঝিকরগাছা এবং চৌগাছা উপজেলার ২০২৪ সালের দ্বাদশ জাতীয় সংসদ নির্বাচনী
+                        মানচিত্র
+                        [ভোট কেন্দ্রের অবস্থান মানচিত্র]।</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <ul class="footer-links pt-5">
+                        <h4>সকল লিংক</h4>
+                        <li><a href="index.html">হোম</a></li>
+                        <li><a href="map.html">মানচিত্র</a></li>
+                        <li><a href="map.html"> ঝিকরগাছা উপজেলা</a></li>
+                        <li><a href="map.html">চৌগাছা উপজেলা </a></li>
+                        <li><a href="contact.html">যোগাযোগ</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <hr class="footer_hr">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2024 All Rights Reserved by
+                        <a href="#">Bangladesh Awami League</a>.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- MDB -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/#[[latestVersion]]#/mdb.min.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
